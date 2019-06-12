@@ -1,0 +1,46 @@
+{
+  "name": "passport-apple",
+  "version": "1.0.0",
+  "description": "Apple authentication strategy for Passport.",
+  "main": "./lib",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Techofficer/passport-apple.git"
+  },
+  "keywords": [
+    "apple",
+    "passport",
+    "signin",
+    "auth",
+    "authentication"
+  ],
+  "author": {
+    "name": "Artem Efremov",
+    "email": "efremov.artserg@gmail.com",
+    "url": "https://gotechmakers.com"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Techofficer/passport-apple/issues"
+  },
+  "homepage": "https://github.com/Techofficer/passport-apple#readme",
+  "dependencies": {
+    "apple-signin": "^1.0.3",
+    "passport-oauth2": "^1.5.0"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  }
+}

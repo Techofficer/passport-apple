@@ -1,0 +1,1 @@
+# Apple authentication strategy for Passport.

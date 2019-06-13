@@ -36,6 +36,7 @@ passport.use(new AppleStrategy({
     privateKeyPath: path.join(__dirname, "./AuthKey_RB1233456.p8")
   }, 
   function(accessToken, refreshToken, profile, done) {
+    const id = profile.id;
     User.findOrCreate(..., function (err, user) {
         done(err, user);
     });

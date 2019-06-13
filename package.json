@@ -1,6 +1,6 @@
 {
   "name": "passport-appleid",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Apple authentication strategy for Passport.",
   "main": "./lib",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/Techofficer/passport-apple#readme",
   "dependencies": {
-    "apple-signin": "^1.0.3",
+    "apple-signin": "^1.0.5",
     "passport-oauth2": "^1.5.0"
   },
   "devDependencies": {

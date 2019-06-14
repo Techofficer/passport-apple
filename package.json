@@ -1,6 +1,6 @@
 {
   "name": "passport-appleid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Apple authentication strategy for Passport.",
   "main": "./lib",
   "scripts": {

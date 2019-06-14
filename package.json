@@ -35,16 +35,11 @@
   "homepage": "https://github.com/Techofficer/passport-apple#readme",
   "dependencies": {
     "apple-signin": "^1.0.5",
-    "passport-oauth2": "^1.5.0",
-    "diff": ">=3.5.0",
-    "minimatch": ">=3.0.2",
-    "debug": ">=2.6.9",
-    "growl": ">=1.10.0"
+    "passport-oauth2": "^1.5.0"
   },
   "devDependencies": {
-    "make-node": "0.3.x",
-    "mocha": "1.x.x",
     "chai": "2.x.x",
-    "chai-passport-strategy": "1.x.x"
+    "chai-passport-strategy": "1.x.x",
+    "mocha": "^6.1.4"
   }
 }

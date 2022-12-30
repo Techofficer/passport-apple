@@ -40,6 +40,6 @@
   "devDependencies": {
     "chai": "2.x.x",
     "chai-passport-strategy": "1.x.x",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   }
 }
